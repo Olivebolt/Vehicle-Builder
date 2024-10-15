@@ -1,58 +1,76 @@
-08 Vehicle Builder
 
-Table of Contents
-Introduction
-Features
-Usage
-Vehicle Controls
+---
 
-Introduction
-Welcome to the Vehicle Builder App, a fun and interactive command-line application where you can create and customize vehicles by choosing from a variety of attributes such as color, make, model, weight, top speed, and more.
+## **Table of Contents**
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Usage](#usage)
+4. [Vehicle Controls](#vehicle-controls)
+
+---
+
+## **Introduction**
+
+Welcome to the **Vehicle Builder and Control CLI App**, a fun and interactive command-line application where you can create and customize vehicles by choosing from a variety of attributes such as color, make, model, weight, top speed, and more.
 
 Once you’ve created your vehicle, you can control its movement—accelerate, decelerate, stop, turn, reverse, or tow—all from the command line!
 
-The app is built using TypeScript and integrates several Node.js packages to create a seamless user experience.
+The app is built using **TypeScript** and integrates several **Node.js** packages to create a seamless user experience.
 
-Features
-Interactive vehicle creation: Choose attributes like color, make, model, weight, top speed, towing capacity, tire brand, and more.
-Vehicle control: Once your vehicle is built, you can start and control it with commands such as accelerate, decelerate, stop, turn, reverse, and tow.
-Multiple vehicles: Create multiple vehicles and switch between them to control each one.
-User-friendly interface: Built using inquirer, the app provides a smooth and intuitive terminal experience.
-Detailed vehicle specs: Print out detailed specs of the vehicle(s) you've assembled.
-Exit or Create Another Vehicle: Once you're done with one vehicle, you can exit the app or choose to create another vehicle.
+---
 
-Usage
+## **Features**
+- **Interactive vehicle creation**: Choose attributes like color, make, model, weight, top speed, towing capacity, tire brand, and more.
+- **Vehicle control**: Once your vehicle is built, you can start and control it with commands such as accelerate, decelerate, stop, turn, reverse, and tow.
+- **Multiple vehicles**: Create multiple vehicles and switch between them to control each one.
+- **User-friendly interface**: Built using `inquirer`, the app provides a smooth and intuitive terminal experience.
+- **Detailed vehicle specs**: Print out detailed specs of the vehicle(s) you've assembled.
+- **Exit or Create Another Vehicle**: Once you're done with one vehicle, you can exit the app or choose to create another vehicle.
+
+---
+
+## **Usage**
+
 Once the app is running, you will be prompted to follow a sequence of questions to create your vehicle. Here's how the flow works:
 
-Choose attributes for your vehicle:
+1. **Choose attributes for your vehicle**:
+   - Color
+   - Make
+   - Model
+   - Weight
+   - Top Speed
+   - Towing Capacity
+   - Tire Brand
+   - Wheels
+   
+2. **Control the vehicle**:
+   After your vehicle is created, you can choose to control it using commands such as:
+   - Accelerate
+   - Decelerate
+   - Stop
+   - Turn left or right
+   - Reverse
+   - Tow
 
-Color
-Make
-Model
-Weight
-Top Speed
-Towing Capacity
-Tire Brand
-Wheels
-Control the vehicle: After your vehicle is created, you can choose to control it using commands such as:
+3. **View vehicle details**:
+   At any time, you can print the details of the vehicle(s) you have assembled.
 
-Accelerate
-Decelerate
-Stop
-Turn left or right
-Reverse
-Tow
-View vehicle details: At any time, you can print the details of the vehicle(s) you have assembled.
+4. **Exit or create another vehicle**:
+   After finishing with your current vehicle, you'll be prompted to either create a new one or exit the app.
 
-Exit or create another vehicle: After finishing with your current vehicle, you'll be prompted to either create a new one or exit the app.
+---
 
-Vehicle Controls
+## **Vehicle Controls**
+
 When controlling the vehicle, you can use the following commands:
 
-Start: Begin driving the vehicle.
-Accelerate: Increase the speed.
-Decelerate: Slow down.
-Stop: Bring the vehicle to a halt.
-Turn Left / Right: Make a left or right turn.
-Reverse: Drive the vehicle in reverse.
-Tow: Use the vehicle to tow a load.
+- **Start**: Begin driving the vehicle.
+- **Accelerate**: Increase the speed.
+- **Decelerate**: Slow down.
+- **Stop**: Bring the vehicle to a halt.
+- **Turn Left / Right**: Make a left or right turn.
+- **Reverse**: Drive the vehicle in reverse.
+- **Tow**: Use the vehicle to tow a load.
+
+---
+
