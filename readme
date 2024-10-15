@@ -17,7 +17,7 @@
 
 ## **Introduction**
 
-Welcome to the **Vehicle Builder and Control CLI App**, a fun and interactive command-line application where you can build and customize vehicles by selecting a variety of attributes like color, make, model, weight, top speed, and more.
+Welcome to the **Vehicle Builder app**, a fun and interactive command-line application where you can build and customize vehicles by selecting a variety of attributes like color, make, model, weight, top speed, and more.
 
 After building your vehicle, you can control its movements—accelerate, decelerate, stop, turn, reverse, or tow—all from the command line!
 
